@@ -1,0 +1,1 @@
+execute at @s align xz run summon minecraft:armor_stand ~0.5 ~ ~0.5 {CustomName:"\"PortalMarker\"",Marker:true,Invulnerable:true,NoGravity:true,Invisible:true}

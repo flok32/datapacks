@@ -1,0 +1,1 @@
+tag @e[type=minecraft:armor_stand,name=PortalMarker,sort=nearest,limit=1] add width_0
