@@ -10,7 +10,7 @@ scoreboard players add @a[scores={portal_cooldown=1..}] portal_cooldown 1
 scoreboard players set @a[scores={portal_cooldown=61..}] portal_cooldown 0
 
 # initialisiere portal_cooldown für neue Player
-scoreboard players set @s[tag=!portal_inside,tag=!portal_outside] portal_cooldown 0
+scoreboard players set @a[tag=!portal_inside,tag=!portal_outside] portal_cooldown 0
 
 # reset Players
 scoreboard players set @a portal 0
