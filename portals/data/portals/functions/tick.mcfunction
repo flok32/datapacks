@@ -114,9 +114,6 @@ scoreboard players set @a[tag=portal_phase06] portal_cooldown 1
 # markiere Spieler bereit zum Teleport
 tag @a[tag=portal_phase06] add portal_phase90
 
-#####
-execute as @a[tag=portal_phase90] run say debug
-
 # Phase 90: teleport to other portal port
 execute at @e[name=PortalMarker,scores={portal=1,portal_port=1}] run teleport @a[tag=portal_phase90,scores={portal=1,portal_port=2}] ~ ~ ~
 execute at @e[name=PortalMarker,scores={portal=1,portal_port=2}] run teleport @a[tag=portal_phase90,scores={portal=1,portal_port=1}] ~ ~ ~
