@@ -1,1 +1,1 @@
-tag @e[type=minecraft:armor_stand,name=PortalMarker,sort=nearest,limit=1] add portal_play_sound
+tag @e[type=minecraft:armor_stand,name=PortalMarker,sort=nearest,limit=1,distance=..7] add portal_play_sound

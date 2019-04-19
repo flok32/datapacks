@@ -1,1 +1,1 @@
-scoreboard players reset @e[type=minecraft:armor_stand,name=PortalMarker,sort=nearest,limit=1] portal_port
+scoreboard players reset @e[type=minecraft:armor_stand,name=PortalMarker,sort=nearest,limit=1,distance=..7] portal_port

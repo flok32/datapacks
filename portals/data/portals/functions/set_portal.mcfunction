@@ -1,1 +1,1 @@
-scoreboard players set @e[type=minecraft:armor_stand,name=PortalMarker,sort=nearest,limit=1] portal 1
+scoreboard players set @e[type=minecraft:armor_stand,name=PortalMarker,sort=nearest,limit=1,distance=..7] portal 1

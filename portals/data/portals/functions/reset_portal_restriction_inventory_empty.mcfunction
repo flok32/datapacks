@@ -1,1 +1,1 @@
-tag @e[type=minecraft:armor_stand,name=PortalMarker,sort=nearest,limit=1] remove portal_restriction_inventory_empty
+tag @e[type=minecraft:armor_stand,name=PortalMarker,sort=nearest,limit=1,distance=..7] remove portal_restriction_inventory_empty
