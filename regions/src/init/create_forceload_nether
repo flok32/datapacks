@@ -1,0 +1,6 @@
+#!/bin/sh
+
+cat $@ \
+    | tr -d '\r' \
+    | sed -r 's/#.*//;/^\s*$/d' \
+    | sed -r '/^#/!s/\s*([^\s]+)\s+([^\s]+)\s+([^\s]+)\s+([^\s]+)\s+([^\s]+)\s*/execute in minecraft:the_nether run forceload add \4 \5/'
