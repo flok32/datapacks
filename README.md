@@ -1,2 +1,2 @@
 # datapacks
-minecraft datapacks for pharagonescia server
+minecraft datapacks for minecraft server
