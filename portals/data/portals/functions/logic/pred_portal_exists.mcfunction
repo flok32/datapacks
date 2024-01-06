@@ -1,0 +1,1 @@
+return run function portals:logic/pred_portal_exists_02 with storage portals:context

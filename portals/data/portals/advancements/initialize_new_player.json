@@ -1,0 +1,12 @@
+{
+    "comment": "A player first entering the world gets initialized for portals",
+    "criteria": {
+	"requirement": {
+	    "trigger": "minecraft:tick",
+	    "conditions": {}
+	}
+    },
+    "rewards": {
+	"function": "portals:logic/initialize_new_player"
+    }
+}
