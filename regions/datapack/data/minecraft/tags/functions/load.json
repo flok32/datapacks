@@ -1,6 +1,6 @@
 {
   "replace": false,
   "values": [
-    "regions:tick"
+    "regions:logic/load"
   ]
 }

@@ -1,8 +1,8 @@
-#Diameter	302632			
+#Diameter	37829			
 #Basisvektor	x	z		
 #origin		0	0		
-#e1		302632	0		
-#e2		151316	262087		
+#e1		37829	0		
+#e2		18915	32761		
 #Region	e1	e2	x	z
 0	0	0	0	0
 1	1	0	37829	0

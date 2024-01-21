@@ -1,0 +1,1 @@
+return run fill ~-7 ~-7 ~-7 ~7 ~7 ~7 minecraft:air replace minecraft:ender_chest

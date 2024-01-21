@@ -1,7 +1,0 @@
-#!/bin/sh
-
-cat $@ \
-    | tr -d '\r' \
-    | sed -r 's/#.*//;/^\s*$/d' \
-    | sed -r '/^#/!s/\s*([^\s]+)\s+([^\s]+)\s+([^\s]+)\s+([^\s]+)\s+([^\s]+)\s*/forceload add \4 \5\n##sleep/'
-
