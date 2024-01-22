@@ -1,2 +1,3 @@
-tag @s add rp_cursor
-execute as @e[name=PortalMarker] run tellraw @a[tag=rp_cursor] ["  Portal: ", {"score":{"name":"@s","objective":"portal_portal"}}]
+tag @s add pp_cursor
+execute as @e[name=PortalMarker] run tellraw @a[tag=pp_cursor] ["  Portal:", {"score":{"name":"@s","objective":"portal_portal"}}, " port:", {"score":{"name":"@s","objective":"portal_port"}}, " next:", {"score":{"name":"@s","objective":"portal_next"}}]
+tag @s remove pp_cursor
