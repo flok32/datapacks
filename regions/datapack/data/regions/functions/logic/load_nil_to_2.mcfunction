@@ -1,5 +1,5 @@
 # trace log
-say init regions - update nil->2
+#say init regions - update nil->2
 
 # create version score for the marker Regions
 scoreboard objectives add regions_version dummy

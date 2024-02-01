@@ -1,5 +1,5 @@
 # trace log
-say phase W02: regions @s - welcome player
+#say phase W02: regions @s - welcome player
 
 # set region
 scoreboard players operation @s regions_region = @e[name=RegionMarker,sort=nearest,limit=1,distance=0..] regions_region

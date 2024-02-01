@@ -1,5 +1,5 @@
 # trace log
-say phase R02.01: regions @s - return player
+#say phase R02.01: regions @s - return player
 
 $say Region $(player_region)
 
