@@ -2,6 +2,6 @@
 
 BASEDIR=$(dirname $0)
 #echo $BASEDIR
-pushd $BASEDIR/portals
-zip -r ../portals.zip *
+pushd $BASEDIR/portals/datapack/
+zip -r ../../portals.zip *
 popd
