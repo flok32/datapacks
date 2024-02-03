@@ -7,4 +7,5 @@
 ** teleport to nearest PortalMarker: execute at @e[type=minecraft:armor_stand,name=PortalMarker,sort=nearest,limit=1] run spreadplayers ~ ~ 1 1 false @s
 ** players portal: @e[name=PortalMarker,sort=nearest,limit=1,distance=..1.5]
 ** sync to test world: rsync -v --recursive --delete /home/deck/projects/minecraft/pharagonescia/datapacks/portals/ /home/deck/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/1.20.4/.minecraft/saves/Testground/datapacks/portals/
-** activate trace logs: sed -i '/# trace/{N;s/\n#/\n/}' *.mcfunction
+** activate trace logs: sed -i '/# trace log/{N;s/\n#/\n/}' *.mcfunction
+** deactivate trace logs: sed -i '/# trace log/{N;s/# trace log\nsay/# trace log\n#say/}' *.mcfunction
